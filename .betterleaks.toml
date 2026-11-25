@@ -1,0 +1,45 @@
+# Betterleaks configuration for sigma-quickstarts.
+#
+# Extends the built-in rules and adds rules for values specific to Sigma.
+# This file is not loaded automatically: the pre-commit hook and the CI
+# workflow pass it explicitly with --config .betterleaks.toml.
+#
+# Pinned scanner version: 1.10.1
+
+title = "sigma-quickstarts"
+betterleaksMinVersion = "1.10.1"
+
+[extend]
+useDefault = true
+
+# Sigma API and embed client secrets are 128 hexadecimal characters.
+[[rules]]
+id = "sigma-client-secret"
+description = "Sigma API or embed client secret"
+regex = '''(?:^|[^0-9a-fA-F])([0-9a-f]{128})(?:[^0-9a-fA-F]|$)'''
+confidence = "high"
+
+# Sigma client IDs are 64 hexadecimal characters, usually next to a client ID
+# key or in a JWT kid/iss claim.
+[[rules]]
+id = "sigma-client-id"
+description = "Sigma API or embed client ID"
+regex = '''(?i)(?:client[_-]?id|clientid|kid|iss)["']?\s*[:=]\s*["']?([0-9a-f]{64})(?:[^0-9a-fA-F]|$)'''
+keywords = ["client_id", "clientid", "client-id", "kid", "iss"]
+confidence = "high"
+
+# Sample files must use example.com, not internal Sigma addresses.
+[[rules]]
+id = "sigma-internal-email"
+description = "Internal Sigma email address"
+regex = '''([A-Za-z0-9._%+-]+@sigmacomputing\.com)'''
+keywords = ["@sigmacomputing.com"]
+confidence = "medium"
+
+# Databricks OAuth client secrets start with "dose".
+[[rules]]
+id = "databricks-oauth-secret"
+description = "Databricks OAuth client secret"
+regex = '''\b(dose[a-f0-9]{32})\b'''
+keywords = ["dose"]
+confidence = "high"
