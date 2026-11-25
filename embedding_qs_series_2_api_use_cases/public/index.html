@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sigma Embed QuickStarts</title>
+  <link rel="stylesheet" href="/styles/layout.css" />
+</head>
+<body>
+
+  <!-- Animated SVG overlay -->
+  <object type="image/svg+xml" data="/assets/embed-login-bg.svg" class="svg-bg"></object>
+
+  <!-- Logo -->
+  <img src="/assets/quickstarts-logo.png" alt="QuickStarts Logo" class="logo" />
+
+  <!-- Content box -->
+  <div class="container">
+    <h1>Sigma Embedding API QuickStarts</h1>
+
+    <select id="qsSelector">
+      <option value="" disabled selected>Select a QuickStart</option>
+    </select>
+
+    <br/>
+    <button onclick="goToQS()">Go</button>
+    <input type="button" onclick="location.href='/tools/preload-users.html';" value="Provision Users" />
+    <input type="button" onclick="window.open('/README.md', '_blank')" value="View Main README" />
+    </div>
+
+  <script>
+    // Environment and debug configuration
+    let DEBUG = false;
+    let env = {};
+
+    // Load environment configuration
+    async function loadEnv() {
+      try {
+        const res = await fetch("/env.json");
+        env = await res.json();
+        DEBUG = String(env.DEBUG).toLowerCase() === "true";
+        if (DEBUG) console.log("DEBUG mode enabled");
+      } catch (err) {
+        if (DEBUG) console.warn("Failed to load environment config:", err);
+      }
+    }
+
+    // Load QuickStart options
+    async function loadQuickStarts() {
+      try {
+        const response = await fetch('/assets/qs-manifest.json');
+        const quickStarts = await response.json();
+        const selector = document.getElementById('qsSelector');
+
+        quickStarts.forEach(qs => {
+          const option = document.createElement('option');
+          option.value = qs.slug;
+          option.textContent = qs.label;
+          selector.appendChild(option);
+        });
+
+        // Ensure placeholder remains selected
+        selector.value = "";
+        if (DEBUG) console.log("QuickStart options loaded:", quickStarts.length);
+      } catch (error) {
+        if (DEBUG) console.error('Failed to load QuickStart manifest:', error);
+      }
+    }
+
+    // Navigate to selected QuickStart
+    function goToQS() {
+      const selected = document.getElementById('qsSelector').value;
+      if (!selected) return alert("Please select a QuickStart.");
+      if (DEBUG) console.log("Navigating to QuickStart:", selected);
+      window.location.href = `/${selected}/?mode=${selected}`;
+    }
+
+    // Initialize the application
+    (async () => {
+      await loadEnv();
+      await loadQuickStarts();
+    })();
+  </script>
+</body>
+</html>

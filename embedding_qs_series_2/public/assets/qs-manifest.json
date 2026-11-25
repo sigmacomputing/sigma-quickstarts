@@ -1,0 +1,14 @@
+[
+  { "slug": "getting_started", "label": "Getting Started" },
+  { "slug": "assistant", "label": "Sigma Assistant for Embedding" },
+  { "slug": "connection_swapping", "label": "Connection Swapping" },
+  { "slug": "dynamic_role_switching", "label": "Dynamic Role Switching with Snowflake" },
+  { "slug": "events", "label": "Events" },
+  { "slug": "federated_access", "label": "Federated Access" },
+  { "slug": "link_sharing", "label": "Link & Bookmark Sharing" },
+  { "slug": "parameterized_queries", "label": "Parameterized Queries" },
+  { "slug": "parameters_userattributes", "label": "Parameters & User Attributes" },
+  { "slug": "public_access", "label": "Public Access" },
+  { "slug": "responsive_embeds", "label": "Responsive Embeds" },
+  { "slug": "version_tagging", "label": "Version Tagging" }
+]

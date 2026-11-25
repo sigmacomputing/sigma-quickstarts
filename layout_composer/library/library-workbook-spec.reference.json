@@ -1,0 +1,871 @@
+{
+  "document": {
+    "schemaVersion": 1,
+    "elements": [
+      {
+        "id": "yo-d1JSR42",
+        "kind": "kpi-chart",
+        "source": {
+          "elementId": "3p0uBB1Oth",
+          "kind": "table"
+        },
+        "columns": [
+          {
+            "id": "FEVXqx6c00",
+            "formula": "Sum([Sales])",
+            "format": {
+              "kind": "number",
+              "formatString": "$,.0f"
+            }
+          },
+          {
+            "id": "nS1Ra12twG",
+            "formula": "[Plugs Sales/Order Number]"
+          },
+          {
+            "id": "sNn7h2ZX-Y",
+            "formula": "[Plugs Sales/Date]"
+          },
+          {
+            "id": "tbTzFFpcr1",
+            "formula": "[Plugs Sales/Sku Number]"
+          },
+          {
+            "id": "Ms2HSZGJas",
+            "formula": "[Plugs Sales/Quantity]"
+          },
+          {
+            "id": "surnL7LCvF",
+            "formula": "[Plugs Sales/Cost]"
+          },
+          {
+            "id": "XfdcpdjopL",
+            "formula": "[Plugs Sales/Price]"
+          },
+          {
+            "id": "Y3czR54sQw",
+            "formula": "[Plugs Sales/Sales]"
+          },
+          {
+            "id": "_l-_Y6kG-o",
+            "formula": "[Plugs Sales/COGs]"
+          },
+          {
+            "id": "KY4-a_eDns",
+            "formula": "[Plugs Sales/Profit]"
+          },
+          {
+            "id": "YLcFtIZgfA",
+            "formula": "[Plugs Sales/Profit Margin]"
+          },
+          {
+            "id": "ufykwSnu3A",
+            "formula": "[Plugs Sales/Month]"
+          },
+          {
+            "id": "eenewHkROa",
+            "formula": "[Plugs Sales/Product Type]"
+          },
+          {
+            "id": "Cpx752W1Tq",
+            "formula": "[Plugs Sales/Product Family]"
+          },
+          {
+            "id": "lD8btDyYsN",
+            "formula": "[Plugs Sales/Product Line]"
+          },
+          {
+            "id": "Vxz0j2bNTu",
+            "formula": "[Plugs Sales/Brand]"
+          },
+          {
+            "id": "G0f3UVdtru",
+            "formula": "[Plugs Sales/Product Name]"
+          },
+          {
+            "id": "a4FXDx0VdX",
+            "formula": "[Plugs Sales/Store Name]"
+          },
+          {
+            "id": "oFZ5Mg72OI",
+            "formula": "[Plugs Sales/Store Key]"
+          },
+          {
+            "id": "cFIg_LPXyu",
+            "formula": "[Plugs Sales/Store Region]"
+          },
+          {
+            "id": "1Xukp2JEEC",
+            "formula": "[Plugs Sales/Store State]"
+          },
+          {
+            "id": "ZcRWAnEI9W",
+            "formula": "[Plugs Sales/Store City]"
+          },
+          {
+            "id": "OVR2MfSxW1",
+            "formula": "[Plugs Sales/Store Zip Code]"
+          },
+          {
+            "id": "_XVabVvM-C",
+            "formula": "[Plugs Sales/Store Latitude]"
+          },
+          {
+            "id": "5NePFtsCmh",
+            "formula": "[Plugs Sales/Store Longitude]"
+          },
+          {
+            "id": "mwkMowngKf",
+            "formula": "[Plugs Sales/Cust Key]"
+          },
+          {
+            "id": "1utGQrWt6w",
+            "formula": "[Plugs Sales/Customer Name]"
+          },
+          {
+            "id": "7yTl_aQiuS",
+            "formula": "[Plugs Sales/Cust Json]"
+          }
+        ],
+        "value": {
+          "columnId": "FEVXqx6c00",
+          "fontSize": 32
+        },
+        "name": {
+          "text": "Total Sales",
+          "fontWeight": "normal",
+          "fontSize": "auto"
+        },
+        "style": {
+          "padding": "none",
+          "backgroundColor": "#ffffff"
+        },
+        "layout": {
+          "anchor": "center"
+        }
+      },
+      {
+        "id": "kRS-Mj56ym",
+        "kind": "kpi-chart",
+        "source": {
+          "elementId": "3p0uBB1Oth",
+          "kind": "table"
+        },
+        "columns": [
+          {
+            "id": "XAgBrzDOvk",
+            "formula": "Avg([Profit Margin])"
+          },
+          {
+            "id": "cmr3WRfOGs",
+            "formula": "[Plugs Sales/Order Number]"
+          },
+          {
+            "id": "SVZiN-dj9r",
+            "formula": "[Plugs Sales/Date]"
+          },
+          {
+            "id": "7vepoqYyIu",
+            "formula": "[Plugs Sales/Sku Number]"
+          },
+          {
+            "id": "5E6voDGyWQ",
+            "formula": "[Plugs Sales/Quantity]"
+          },
+          {
+            "id": "cVsw2Ogas5",
+            "formula": "[Plugs Sales/Cost]"
+          },
+          {
+            "id": "B08ztEVKAS",
+            "formula": "[Plugs Sales/Price]"
+          },
+          {
+            "id": "dZWuW4Ym3Q",
+            "formula": "[Plugs Sales/Sales]"
+          },
+          {
+            "id": "wZ0P88Kfos",
+            "formula": "[Plugs Sales/COGs]"
+          },
+          {
+            "id": "ElAwSxfNj9",
+            "formula": "[Plugs Sales/Profit]"
+          },
+          {
+            "id": "gJ5fLrNcYW",
+            "formula": "[Plugs Sales/Profit Margin]"
+          },
+          {
+            "id": "D5cz93NDwR",
+            "formula": "[Plugs Sales/Month]"
+          },
+          {
+            "id": "0XRE5mzOie",
+            "formula": "[Plugs Sales/Product Type]"
+          },
+          {
+            "id": "Xaz9KTtBt1",
+            "formula": "[Plugs Sales/Product Family]"
+          },
+          {
+            "id": "7VKwVZMx11",
+            "formula": "[Plugs Sales/Product Line]"
+          },
+          {
+            "id": "HE5KI8VvDy",
+            "formula": "[Plugs Sales/Brand]"
+          },
+          {
+            "id": "uk3ByW7QfF",
+            "formula": "[Plugs Sales/Product Name]"
+          },
+          {
+            "id": "SKdELrkIiZ",
+            "formula": "[Plugs Sales/Store Name]"
+          },
+          {
+            "id": "0533usVAR8",
+            "formula": "[Plugs Sales/Store Key]"
+          },
+          {
+            "id": "ZsQpxAtA3_",
+            "formula": "[Plugs Sales/Store Region]"
+          },
+          {
+            "id": "2G79GCT0bp",
+            "formula": "[Plugs Sales/Store State]"
+          },
+          {
+            "id": "eNe2rFINeD",
+            "formula": "[Plugs Sales/Store City]"
+          },
+          {
+            "id": "vBjDO0feUh",
+            "formula": "[Plugs Sales/Store Zip Code]"
+          },
+          {
+            "id": "PDjFnWla7w",
+            "formula": "[Plugs Sales/Store Latitude]"
+          },
+          {
+            "id": "rAIi2-RCk7",
+            "formula": "[Plugs Sales/Store Longitude]"
+          },
+          {
+            "id": "m4hCvoc8KJ",
+            "formula": "[Plugs Sales/Cust Key]"
+          },
+          {
+            "id": "yik56aZ6iy",
+            "formula": "[Plugs Sales/Customer Name]"
+          },
+          {
+            "id": "UOaKm7lwng",
+            "formula": "[Plugs Sales/Cust Json]"
+          }
+        ],
+        "value": {
+          "columnId": "XAgBrzDOvk",
+          "fontSize": 32
+        },
+        "name": "Profit Margin",
+        "layout": {
+          "anchor": "center"
+        }
+      },
+      {
+        "id": "3KuBzjKojg",
+        "kind": "line-chart",
+        "source": {
+          "elementId": "3p0uBB1Oth",
+          "kind": "table"
+        },
+        "columns": [
+          {
+            "id": "M35_iagYqN",
+            "formula": "[Plugs Sales/Month]"
+          },
+          {
+            "id": "erne9FAUaZ",
+            "formula": "Sum([Sales])"
+          },
+          {
+            "id": "tOaJ94qn_w",
+            "formula": "[Plugs Sales/Order Number]"
+          },
+          {
+            "id": "6ZaMxCBn5w",
+            "formula": "[Plugs Sales/Date]"
+          },
+          {
+            "id": "EVcdDwuLIy",
+            "formula": "[Plugs Sales/Sku Number]"
+          },
+          {
+            "id": "NHFG7AVX3S",
+            "formula": "[Plugs Sales/Quantity]"
+          },
+          {
+            "id": "L7gIKI5hCi",
+            "formula": "[Plugs Sales/Cost]"
+          },
+          {
+            "id": "KBnomZLcUo",
+            "formula": "[Plugs Sales/Price]"
+          },
+          {
+            "id": "S7P-PkRXh9",
+            "formula": "[Plugs Sales/Sales]"
+          },
+          {
+            "id": "ZuThDlq20z",
+            "formula": "[Plugs Sales/COGs]"
+          },
+          {
+            "id": "mPhKNQsFd8",
+            "formula": "[Plugs Sales/Profit]"
+          },
+          {
+            "id": "dDzoEOSl0i",
+            "formula": "[Plugs Sales/Profit Margin]"
+          },
+          {
+            "id": "o3_8ckZPEP",
+            "formula": "[Plugs Sales/Product Type]"
+          },
+          {
+            "id": "nVDbYbOwar",
+            "formula": "[Plugs Sales/Product Family]"
+          },
+          {
+            "id": "o97QBMmZxS",
+            "formula": "[Plugs Sales/Product Line]"
+          },
+          {
+            "id": "4Bv4WmL-gI",
+            "formula": "[Plugs Sales/Brand]"
+          },
+          {
+            "id": "xVHmLIXsNj",
+            "formula": "[Plugs Sales/Product Name]"
+          },
+          {
+            "id": "HUX1k9xCbb",
+            "formula": "[Plugs Sales/Store Name]"
+          },
+          {
+            "id": "BVON3hp0w4",
+            "formula": "[Plugs Sales/Store Key]"
+          },
+          {
+            "id": "kGKBuacw6x",
+            "formula": "[Plugs Sales/Store Region]"
+          },
+          {
+            "id": "uVT7rucr_M",
+            "formula": "[Plugs Sales/Store State]"
+          },
+          {
+            "id": "afT6EaWBz1",
+            "formula": "[Plugs Sales/Store City]"
+          },
+          {
+            "id": "YZlHlGrxR4",
+            "formula": "[Plugs Sales/Store Zip Code]"
+          },
+          {
+            "id": "bxwBjasSnj",
+            "formula": "[Plugs Sales/Store Latitude]"
+          },
+          {
+            "id": "nAdMtPr7Hg",
+            "formula": "[Plugs Sales/Store Longitude]"
+          },
+          {
+            "id": "jeyoGaXQ1F",
+            "formula": "[Plugs Sales/Cust Key]"
+          },
+          {
+            "id": "jEGrwVQgT1",
+            "formula": "[Plugs Sales/Customer Name]"
+          },
+          {
+            "id": "TeZLDUm_uH",
+            "formula": "[Plugs Sales/Cust Json]"
+          }
+        ],
+        "yAxis": {
+          "columnIds": [
+            "erne9FAUaZ"
+          ]
+        },
+        "xAxis": {
+          "columnId": "M35_iagYqN"
+        },
+        "name": "Sales by Month"
+      },
+      {
+        "id": "q9D5g7Ysqe",
+        "kind": "bar-chart",
+        "source": {
+          "elementId": "3p0uBB1Oth",
+          "kind": "table"
+        },
+        "columns": [
+          {
+            "id": "X2P948anM5",
+            "formula": "[Plugs Sales/Store Region]"
+          },
+          {
+            "id": "ljRwVPA-qP",
+            "formula": "Sum([Sales])"
+          },
+          {
+            "id": "gUwFa8JXMa",
+            "formula": "[Plugs Sales/Order Number]"
+          },
+          {
+            "id": "QUHqDBXk7T",
+            "formula": "[Plugs Sales/Date]"
+          },
+          {
+            "id": "2izhRosyrX",
+            "formula": "[Plugs Sales/Sku Number]"
+          },
+          {
+            "id": "z-OPR-_5Jm",
+            "formula": "[Plugs Sales/Quantity]"
+          },
+          {
+            "id": "gR7zsaQSlE",
+            "formula": "[Plugs Sales/Cost]"
+          },
+          {
+            "id": "LBNeh7SqpP",
+            "formula": "[Plugs Sales/Price]"
+          },
+          {
+            "id": "-BFwNSw0X2",
+            "formula": "[Plugs Sales/Sales]"
+          },
+          {
+            "id": "iTjB8Ba2Gz",
+            "formula": "[Plugs Sales/COGs]"
+          },
+          {
+            "id": "LcFuZpsbKi",
+            "formula": "[Plugs Sales/Profit]"
+          },
+          {
+            "id": "A2V6AVj8H-",
+            "formula": "[Plugs Sales/Profit Margin]"
+          },
+          {
+            "id": "dKzE5jnRTJ",
+            "formula": "[Plugs Sales/Month]"
+          },
+          {
+            "id": "vDgxA2nJ4Y",
+            "formula": "[Plugs Sales/Product Type]"
+          },
+          {
+            "id": "WoPN7nd2i-",
+            "formula": "[Plugs Sales/Product Family]"
+          },
+          {
+            "id": "WlPKAwHbq3",
+            "formula": "[Plugs Sales/Product Line]"
+          },
+          {
+            "id": "sjhu8vdYSm",
+            "formula": "[Plugs Sales/Brand]"
+          },
+          {
+            "id": "sYYhK4sLjF",
+            "formula": "[Plugs Sales/Product Name]"
+          },
+          {
+            "id": "RpLcGO6GSO",
+            "formula": "[Plugs Sales/Store Name]"
+          },
+          {
+            "id": "Sf2huXnl5M",
+            "formula": "[Plugs Sales/Store Key]"
+          },
+          {
+            "id": "VvkEjjy0tQ",
+            "formula": "[Plugs Sales/Store State]"
+          },
+          {
+            "id": "d_fw1XmL5F",
+            "formula": "[Plugs Sales/Store City]"
+          },
+          {
+            "id": "rbz6WraUc2",
+            "formula": "[Plugs Sales/Store Zip Code]"
+          },
+          {
+            "id": "rj_8GYscWO",
+            "formula": "[Plugs Sales/Store Latitude]"
+          },
+          {
+            "id": "LTZuFUDP5J",
+            "formula": "[Plugs Sales/Store Longitude]"
+          },
+          {
+            "id": "QI1vFuHvEk",
+            "formula": "[Plugs Sales/Cust Key]"
+          },
+          {
+            "id": "FC1hbSszFB",
+            "formula": "[Plugs Sales/Customer Name]"
+          },
+          {
+            "id": "cipfjGBRb8",
+            "formula": "[Plugs Sales/Cust Json]"
+          }
+        ],
+        "yAxis": {
+          "columnIds": [
+            "ljRwVPA-qP"
+          ]
+        },
+        "xAxis": {
+          "columnId": "X2P948anM5"
+        },
+        "name": "Sales by Store Region"
+      },
+      {
+        "id": "TNdCf2n4pQ",
+        "kind": "table",
+        "source": {
+          "elementId": "3p0uBB1Oth",
+          "kind": "table"
+        },
+        "columns": [
+          {
+            "id": "rYqjnYu5ue",
+            "formula": "[Plugs Sales/Store Region]"
+          },
+          {
+            "id": "cIoRc8Ofcz",
+            "formula": "[Plugs Sales/Month]"
+          },
+          {
+            "id": "1ldcY72hXc",
+            "formula": "[Plugs Sales/Quantity]"
+          },
+          {
+            "id": "-BdgX6-PUm",
+            "formula": "[Plugs Sales/Sales]"
+          },
+          {
+            "id": "WHmIBcqWW0",
+            "formula": "[Plugs Sales/Profit]"
+          },
+          {
+            "id": "aWcPwuCJYK",
+            "formula": "[Plugs Sales/Order Number]",
+            "hidden": true
+          },
+          {
+            "id": "PpZJVSsay4",
+            "formula": "[Plugs Sales/Date]",
+            "hidden": true
+          },
+          {
+            "id": "8fQ0ASPxvZ",
+            "formula": "[Plugs Sales/Sku Number]",
+            "hidden": true
+          },
+          {
+            "id": "_W-LG7ImHF",
+            "formula": "[Plugs Sales/Cost]",
+            "hidden": true
+          },
+          {
+            "id": "9qHA6kEGfn",
+            "formula": "[Plugs Sales/Price]",
+            "hidden": true
+          },
+          {
+            "id": "3Hrul0f80Y",
+            "formula": "[Plugs Sales/COGs]",
+            "hidden": true
+          },
+          {
+            "id": "XHUIOvd6XF",
+            "formula": "[Plugs Sales/Profit Margin]",
+            "hidden": true
+          },
+          {
+            "id": "bVBXF7i9Ve",
+            "formula": "[Plugs Sales/Product Type]",
+            "hidden": true
+          },
+          {
+            "id": "UJbuuCExXS",
+            "formula": "[Plugs Sales/Product Family]",
+            "hidden": true
+          },
+          {
+            "id": "ZbU0eE0ADS",
+            "formula": "[Plugs Sales/Product Line]",
+            "hidden": true
+          },
+          {
+            "id": "HS5JApSiot",
+            "formula": "[Plugs Sales/Brand]",
+            "hidden": true
+          },
+          {
+            "id": "_7PcfNuki0",
+            "formula": "[Plugs Sales/Product Name]",
+            "hidden": true
+          },
+          {
+            "id": "OTvd69YUmk",
+            "formula": "[Plugs Sales/Store Name]",
+            "hidden": true
+          },
+          {
+            "id": "21r4JqzAId",
+            "formula": "[Plugs Sales/Store Key]",
+            "hidden": true
+          },
+          {
+            "id": "qwLbncBnAz",
+            "formula": "[Plugs Sales/Store State]",
+            "hidden": true
+          },
+          {
+            "id": "ZTQ_3bwvKn",
+            "formula": "[Plugs Sales/Store City]",
+            "hidden": true
+          },
+          {
+            "id": "lD63q-xx8d",
+            "formula": "[Plugs Sales/Store Zip Code]",
+            "hidden": true
+          },
+          {
+            "id": "clWlmLwVPC",
+            "formula": "[Plugs Sales/Store Latitude]",
+            "hidden": true
+          },
+          {
+            "id": "7D7-FzFZbi",
+            "formula": "[Plugs Sales/Store Longitude]",
+            "hidden": true
+          },
+          {
+            "id": "S6ErEoKlG_",
+            "formula": "[Plugs Sales/Cust Key]",
+            "hidden": true
+          },
+          {
+            "id": "QhFs9XPyP4",
+            "formula": "[Plugs Sales/Customer Name]",
+            "hidden": true
+          },
+          {
+            "id": "BTyag3NjDP",
+            "formula": "[Plugs Sales/Cust Json]",
+            "hidden": true
+          }
+        ],
+        "name": "Sales Detail",
+        "order": [
+          "rYqjnYu5ue",
+          "cIoRc8Ofcz",
+          "1ldcY72hXc",
+          "-BdgX6-PUm",
+          "WHmIBcqWW0",
+          "aWcPwuCJYK",
+          "PpZJVSsay4",
+          "8fQ0ASPxvZ",
+          "_W-LG7ImHF",
+          "9qHA6kEGfn",
+          "3Hrul0f80Y",
+          "XHUIOvd6XF",
+          "bVBXF7i9Ve",
+          "UJbuuCExXS",
+          "ZbU0eE0ADS",
+          "HS5JApSiot",
+          "_7PcfNuki0",
+          "OTvd69YUmk",
+          "21r4JqzAId",
+          "qwLbncBnAz",
+          "ZTQ_3bwvKn",
+          "lD63q-xx8d",
+          "clWlmLwVPC",
+          "7D7-FzFZbi",
+          "S6ErEoKlG_",
+          "QhFs9XPyP4",
+          "BTyag3NjDP"
+        ]
+      },
+      {
+        "id": "3p0uBB1Oth",
+        "kind": "table",
+        "source": {
+          "dataModelId": "00000000-0000-0000-0000-000000000000",
+          "elementId": "pnu513ozRs",
+          "kind": "data-model"
+        },
+        "columns": [
+          {
+            "id": "MsXewmz2oA",
+            "formula": "[Plugs Sales/Order Number]"
+          },
+          {
+            "id": "i0scXuxaFk",
+            "formula": "[Plugs Sales/Date]"
+          },
+          {
+            "id": "rIQzb9GOdE",
+            "formula": "[Plugs Sales/Sku Number]"
+          },
+          {
+            "id": "9lDXPCuYhy",
+            "formula": "[Plugs Sales/Quantity]"
+          },
+          {
+            "id": "pKDmdX8jcY",
+            "formula": "[Plugs Sales/Cost]"
+          },
+          {
+            "id": "dLwwHch_HB",
+            "formula": "[Plugs Sales/Price]"
+          },
+          {
+            "id": "o39Y6FvL1C",
+            "formula": "[Plugs Sales/Sales]"
+          },
+          {
+            "id": "AjECaqqO6f",
+            "formula": "[Plugs Sales/COGs]"
+          },
+          {
+            "id": "1ZUqT8k-Mu",
+            "formula": "[Plugs Sales/Profit]"
+          },
+          {
+            "id": "889BHe01TP",
+            "formula": "[Plugs Sales/Profit Margin]"
+          },
+          {
+            "id": "bHjnptW5H1",
+            "formula": "[Plugs Sales/Month]"
+          },
+          {
+            "id": "guafoIxNBr",
+            "formula": "[Plugs Sales/Product Type]"
+          },
+          {
+            "id": "n2meSlT3K8",
+            "formula": "[Plugs Sales/Product Family]"
+          },
+          {
+            "id": "nKNURuzVF_",
+            "formula": "[Plugs Sales/Product Line]"
+          },
+          {
+            "id": "_ejRiXGwx4",
+            "formula": "[Plugs Sales/Brand]"
+          },
+          {
+            "id": "UfNnYWBi_O",
+            "formula": "[Plugs Sales/Product Name]"
+          },
+          {
+            "id": "W-jetDp5Jt",
+            "formula": "[Plugs Sales/Store Name]"
+          },
+          {
+            "id": "gZn99E2sro",
+            "formula": "[Plugs Sales/Store Key]"
+          },
+          {
+            "id": "LEuqNuRHV0",
+            "formula": "[Plugs Sales/Store Region]"
+          },
+          {
+            "id": "KkPiBENT3I",
+            "formula": "[Plugs Sales/Store State]"
+          },
+          {
+            "id": "8tnNWNTJKo",
+            "formula": "[Plugs Sales/Store City]"
+          },
+          {
+            "id": "KOBeDmzTib",
+            "formula": "[Plugs Sales/Store Zip Code]"
+          },
+          {
+            "id": "N-DgKOchPO",
+            "formula": "[Plugs Sales/Store Latitude]"
+          },
+          {
+            "id": "v3q5BzAWk4",
+            "formula": "[Plugs Sales/Store Longitude]"
+          },
+          {
+            "id": "8QAqC8fDnx",
+            "formula": "[Plugs Sales/Cust Key]"
+          },
+          {
+            "id": "uS45DM4U1i",
+            "formula": "[Plugs Sales/Customer Name]"
+          },
+          {
+            "id": "UBLLS5bwi0",
+            "formula": "[Plugs Sales/Cust Json]"
+          }
+        ],
+        "order": [
+          "MsXewmz2oA",
+          "i0scXuxaFk",
+          "rIQzb9GOdE",
+          "9lDXPCuYhy",
+          "pKDmdX8jcY",
+          "dLwwHch_HB",
+          "o39Y6FvL1C",
+          "AjECaqqO6f",
+          "1ZUqT8k-Mu",
+          "889BHe01TP",
+          "bHjnptW5H1",
+          "guafoIxNBr",
+          "n2meSlT3K8",
+          "nKNURuzVF_",
+          "_ejRiXGwx4",
+          "UfNnYWBi_O",
+          "W-jetDp5Jt",
+          "gZn99E2sro",
+          "LEuqNuRHV0",
+          "KkPiBENT3I",
+          "8tnNWNTJKo",
+          "KOBeDmzTib",
+          "N-DgKOchPO",
+          "v3q5BzAWk4",
+          "8QAqC8fDnx",
+          "uS45DM4U1i",
+          "UBLLS5bwi0"
+        ]
+      }
+    ],
+    "pages": [
+      {
+        "id": "6AE0pa9xg2",
+        "name": "Library"
+      },
+      {
+        "id": "qZl9KGGhdN",
+        "name": "Source"
+      }
+    ],
+    "kind": "workbook",
+    "layout": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<Page type=\"grid\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\" id=\"6AE0pa9xg2\">\n  <Element elementId=\"yo-d1JSR42\" gridColumn=\"1 / 8\" gridRow=\"1 / 8\"/>\n  <Element elementId=\"kRS-Mj56ym\" gridColumn=\"8 / 13\" gridRow=\"1 / 8\"/>\n  <Element elementId=\"3KuBzjKojg\" gridColumn=\"13 / 25\" gridRow=\"1 / 13\"/>\n  <Element elementId=\"q9D5g7Ysqe\" gridColumn=\"1 / 12\" gridRow=\"8 / 18\"/>\n  <Element elementId=\"TNdCf2n4pQ\" gridColumn=\"12 / 25\" gridRow=\"13 / 28\"/>\n</Page>\n<Page type=\"grid\" gridTemplateColumns=\"repeat(24, 1fr)\" gridTemplateRows=\"auto\" id=\"qZl9KGGhdN\">\n  <Element elementId=\"3p0uBB1Oth\" gridColumn=\"1 / 25\" gridRow=\"1 / 15\"/>\n</Page>\n"
+  }
+}

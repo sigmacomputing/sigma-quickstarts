@@ -1,0 +1,10 @@
+# Scans staged changes for secrets before every commit.
+# Setup (once per clone):
+#   pip install pre-commit
+#   pre-commit install
+repos:
+  - repo: https://github.com/betterleaks/betterleaks
+    rev: v1.10.1
+    hooks:
+      - id: betterleaks
+        args: ["--config", ".betterleaks.toml"]
